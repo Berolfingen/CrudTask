@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="CrudTask:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="CrudTask.war">
+      <element id="artifact" artifact-name="CrudTask:war exploded" />
+    </root>
+  </artifact>
+</component>

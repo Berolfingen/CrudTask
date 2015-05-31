@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition name="common" template="/WEB-INF/layout/classic.jsp">
+        <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    <definition name="index" extends="common" >
+        <put-attribute name="title" value="Simple CRUD index page" />
+        <put-attribute name="search" value="/WEB-INF/layout/search.jsp" />
+        <put-attribute name="insert" value="/WEB-INF/layout/insert.jsp" />
+        <put-attribute name="body" value="/WEB-INF/jsp/user.jsp" />
+    </definition>
+</tiles-definitions>
